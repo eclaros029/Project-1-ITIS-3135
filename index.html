@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eli's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">Welcome!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Hello, my name is Eli.</h2>
+            <p>I am a CS student focusing on cybersecurity. I enjoy creating clean and responsive web pages and security projects.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                I am a current student of UNC Charlotte, pursuing a Bachelors of Science with a concentration in Cybersecurity and a minor in Mathematics.
+                I like hands-on projects and learning about networking.
+            </p>
+            <ul>
+                <li>Technical skills:</li>
+                <ul>
+                    <li>Languages: Java, C#, SQL, C, Assembly, HTML, CSS</li>
+                    <li>Networking: OSI model, network architecture and protocols, internet routing</li>
+                    <li>Operating Systems: processes, threads, scheduling</li>
+                </ul>
+                <li>Intersts: Hands on labs, OverTheWire Bandit Linux environment CTFs, networking, pentesting</li>
+                <li>Goal: Attaining a cybersecurity career within the government</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:eclaros@charlotte.edu">eclaros@charlotte.edu</a> | Phone: <a href="tel:9806360106">(980) 636-0106</a></p>
+            
+            <form action="#">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="6" cols="30" required></textarea>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>@ 2025 Eli Claros. All rights reserved.</p>
+        <p>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
