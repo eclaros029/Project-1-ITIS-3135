@@ -1,5 +1,5 @@
 :root {
-    --clr-primary: #0062ff;
+    --clr-primary: #414956;
     --clr-bg: #ffffff;
     --clr-surface: #7b7b7b6e;
     --clr-text: #4b4b4b;
@@ -10,10 +10,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
 }
 
 body {
@@ -73,16 +69,14 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
+#contact a:hover {
+    color: blue;
+}
+
 input {
     width: 40%;
     line-height: 3;
     margin: 0.5rem;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
   
 nav ul {
@@ -98,9 +92,11 @@ nav ul {
 nav a {
     color: var(--clr-primary);
     text-decoration: none;
+    font-size: large;
 }
   
 nav a:hover {
+    color: blue;
     text-decoration: none;
 }
 
@@ -118,12 +114,10 @@ section ul{
     padding-left: 1.2rem;
 }
 
-.cards {
-    display: block;
-    gap: 1rem;
-}
-
 .project-card {
+    display: block;
+    gap: 1rem;  
+    
     width: 95%;
     max-width: 720px;
     border: 1px solid var(--clr-secondary-text);
